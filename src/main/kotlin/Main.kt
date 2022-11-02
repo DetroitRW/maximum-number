@@ -3,6 +3,7 @@ import java.util.*
 fun main(args: Array<String>) {
 
     val reader = Scanner(System.`in`)
+
     print("Введите число: ")
     var a = reader.nextInt()
 
@@ -11,4 +12,20 @@ fun main(args: Array<String>) {
 
     print("Введите число: ")
     var c = reader.nextInt()
+
+    val result = if (a > b) {
+        if (a > c) {
+            a
+        } else {
+            c
+        }
+    } else {
+        if (b > c) {
+        b
+    } else {
+        c
+    }
+
+    }
+    print(result)
 }
