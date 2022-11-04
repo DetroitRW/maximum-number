@@ -21,11 +21,11 @@ fun main(args: Array<String>) {
         }
     } else {
         if (b > c) {
-        b
+            b
         } else {
-        c
+            c
         }
 
-    }
+      }
     print(result)
 }
