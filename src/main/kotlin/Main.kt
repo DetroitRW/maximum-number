@@ -26,6 +26,6 @@ fun main(args: Array<String>) {
             c
         }
 
-      }
+    }
     print(result)
 }
