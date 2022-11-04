@@ -22,9 +22,9 @@ fun main(args: Array<String>) {
     } else {
         if (b > c) {
         b
-    } else {
+        } else {
         c
-    }
+        }
 
     }
     print(result)
