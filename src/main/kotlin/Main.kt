@@ -27,5 +27,5 @@ fun main(args: Array<String>) {
         }
 
     }
-    print(result)
+    print("Максимальное число: $result")
 }
